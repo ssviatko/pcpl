@@ -1,0 +1,18 @@
+pc.pl
+
+A fun, simple, and useful Perl script to prove to potential employers that I know Perl.
+
+   Stephen Sviatko (ssviatko@gmail.com)
+   (C) 2017, 2018 Good Neighbors LLC - Unlimited site license granted as long
+   as this script remains unmodified and the original author is credited.
+
+   Requires perl (any version that supports sockets), netcat.
+
+This is a simple chat system reminiscent of Diversi-Dial on an Apple //.
+To use this program: Under Linux, type chmod +x pc.pl and ./pc.pl in one window,
+Type "nc localhost 9734" (or whatever port pc.pl is listening on) in another window.
+Make as many connections to the machine running pc.pl as desired, up to $MAX_PEERS.
+Type /help for a list of commands once you are connected with netcat.
+Use of the /exec command is strongly cautioned if pc.pl is running in a root session!
+
+
